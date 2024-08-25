@@ -2,7 +2,6 @@ import smtplib
 import requests
 import schedule
 from time import sleep
-from pprint import pprint
 from datetime import datetime
 from email.message import EmailMessage
 from settings import password, sender
