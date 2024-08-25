@@ -17,7 +17,11 @@ Esse arquivo terá a senha(password), que você precisará criar com o link
 
 para permitir que seu email seja acessado pelo seu código.  
 
-sender é o email que você configurou com o link acima.  
+sender é o email que você configurou com o link acima, que será o email(remetente)
+
+que enviará as mensagens de alerta para o email(destinatário) que você escolherá quando 
+
+rodar o código.  
 
 password = 'Sua senha'  
 
