@@ -73,9 +73,10 @@ class BTCBRLQuotation:
 
     def fetch_quotation(self):
         
-        # chamada para a api
-        self.response = requests.get(self.URL)
         try:
+            # chamada para a api
+            self.response = requests.get(self.URL)
+            
             if self.response.status_code == 200:
                 # O preço de compra do Bitcoin (quanto você pagaria para comprar um Bitcoin.
                 self.purchase_price = float(self.response.json()['BTCBRL']['bid'])
