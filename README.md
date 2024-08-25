@@ -10,10 +10,15 @@ Este projeto é um script em Python que verifica a cotação do Bitcoin em rela�
 - Executa a verificação a cada 10 minutos.
 
 ## Crie o arquivo settings.py
+
 Esse arquivo terá a senha(password), que você precisará criar com o link
-[https://myaccount.google.com/apppasswords](https://myaccount.google.com/apppasswords), para permitir que seu email
-seja acessado pelo seu código.
+
+[https://myaccount.google.com/apppasswords](https://myaccount.google.com/apppasswords), 
+
+para permitir que seu email seja acessado pelo seu código.
+
 sender é o email que você configurou com o link acima.
 
 password = 'Sua senha'
+
 sender = 'Seu email'
